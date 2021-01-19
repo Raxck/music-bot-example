@@ -56,7 +56,7 @@ client.on('message', msg => {
     const embed = new discord.MessageEmbed()
     .setDescription(`:wave: | My prefix is ${prefix}`)
     .setColor("RANDOM")
-    .setFooter("© Not A 開発者 2020")
+    .setFooter("Remeatserz | We with You :grinning:")
     msg.channel.send(embed)
   }
   if(msg.content == prefix) {
